@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    theme:     
+      css/bootstrap.min.css: {}
+      css/bootstrap.min.css.map: {}
+      css/style.css: {}
+  js:
+    js/custom_main.js: {}
