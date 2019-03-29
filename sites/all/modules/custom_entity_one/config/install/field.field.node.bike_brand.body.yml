@@ -1,0 +1,22 @@
+# field.field.node.bike_brand.body.yml
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.body
+        - node.type.bike_brand
+    module:
+        - text
+id: node.bike_brand.body
+field_name: body
+entity_type: node
+bundle: bike_brand
+label: Body
+description: 'More specific information about the bike brand.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+    display_summary: true
+field_type: text_with_summary

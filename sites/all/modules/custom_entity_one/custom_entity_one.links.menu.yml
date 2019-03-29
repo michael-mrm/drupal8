@@ -1,0 +1,6 @@
+custom_entity_one.admin:
+  title: 'custom_entity_one settings'
+  description: 'custom entity one settings'
+  parent: system.admin_config_development
+  route_name: custom_entity_one.content
+  weight: 100

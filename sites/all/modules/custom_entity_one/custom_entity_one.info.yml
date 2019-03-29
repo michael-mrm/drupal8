@@ -1,0 +1,6 @@
+name: custom_entity_one
+description: custom_entity_one module will use entity.
+package: Custom
+type: module
+version: 1.0
+core: 8.x

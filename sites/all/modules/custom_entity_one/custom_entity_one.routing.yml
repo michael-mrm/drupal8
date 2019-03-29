@@ -1,0 +1,7 @@
+custom_entity_one.content:
+  path: '/custom_entity_one'
+  defaults:
+    _controller: '\Drupal\custom_entity_one\Controller\custom_entity_one_Controller::content'
+    _title: 'custom entity one'
+  requirements:
+    _permission: 'access content'

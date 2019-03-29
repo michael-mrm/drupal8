@@ -1,0 +1,24 @@
+# core.entity_form_display.node.bike_brand.default.yml
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.field.node.bike_brand.body
+        - node.type.bike_brand
+    module:
+        - text
+        - user
+id: node.bike_brand.default
+targetEntityType: node
+bundle: bike_brand
+mode: default
+content:
+    body:
+        label: hidden
+        type: text_textarea_with_summary
+        weight: 101
+        settings: {  }
+        third_party_settings: {  }
+    links:
+        weight: 100
+hidden: {  }
