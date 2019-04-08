@@ -1,0 +1,10 @@
+<?php
+function custom_entity_one_theme($existing, $type, $theme, $path) {
+  return [
+    'bikes' => [
+      'variables' => [
+          'Bikes_value' => [],
+          ],
+    ],
+  ];
+}
